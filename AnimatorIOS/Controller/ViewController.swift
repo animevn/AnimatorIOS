@@ -6,6 +6,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var cardImage: UIImageView!
     
+    override func viewWillTransition(to size: CGSize,
+                                     with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate(alongsideTransition: {_ in
+            let orientation = UIDevice.current.orientation
+            if orientation.isLandscape{
+                self.stackView.axis = .horizontal
+                self.stackView.distribution = .fillEqually
+            }
+            if orientation.isPortrait{
+                self.stackView.axis = .vertical
+            }
+        })
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         cardView.layer.borderColor = UIColor.clear.cgColor
