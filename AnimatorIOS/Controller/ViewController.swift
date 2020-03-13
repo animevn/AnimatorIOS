@@ -44,6 +44,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onFadePressed(_ sender: UIButton) {
+        model.card.flipCard()
+        model.fade(cardImage: cardImage)
     }
     
     @IBAction func onFlipRightPressed(_ sender: UIButton) {
