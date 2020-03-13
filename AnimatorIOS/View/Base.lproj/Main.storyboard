@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,20 +12,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimatorIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="GNG-RI-Uyl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="706"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="637"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01f-CV-ZxY">
-                                        <rect key="frame" x="47" y="0.0" width="320" height="529.66666666666663"/>
+                                        <rect key="frame" x="27.5" y="0.0" width="320" height="382"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biJ-gz-JwZ">
-                                                <rect key="frame" x="20" y="20.000000000000028" width="280" height="489.66666666666674"/>
+                                                <rect key="frame" x="20" y="20" width="280" height="342"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ace_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="AIu-RT-wML" userLabel="card">
-                                                        <rect key="frame" x="-14.666666666666657" y="20" width="309.33333333333326" height="449.66666666666669"/>
+                                                        <rect key="frame" x="36" y="20" width="208" height="302"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="AIu-RT-wML" secondAttribute="height" multiplier="1:1.452" id="hK5-D3-U0g"/>
                                                         </constraints>
@@ -49,37 +49,37 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SH4-og-eav">
-                                        <rect key="frame" x="94.666666666666686" y="548.66666666666663" width="225" height="157.33333333333337"/>
+                                        <rect key="frame" x="75" y="401" width="225" height="236"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="PBE-Lk-DKe">
-                                                <rect key="frame" x="0.0" y="0.0" width="225" height="70.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5A6-jX-2uY">
-                                                        <rect key="frame" x="0.0" y="16.666666666666742" width="100" height="37"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                        <rect key="frame" x="0.0" y="36.5" width="100" height="37"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Rotate" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h91-AW-Rbv">
-                                                        <rect key="frame" x="125" y="16.666666666666742" width="100" height="37"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                        <rect key="frame" x="125" y="36.5" width="100" height="37"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Flip Left" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="6N9-S0-ZIy">
-                                                <rect key="frame" x="0.0" y="86.666666666666742" width="225" height="70.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="126" width="225" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-hW-cLa">
-                                                        <rect key="frame" x="0.0" y="16.666666666666629" width="100" height="37"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                        <rect key="frame" x="0.0" y="36.5" width="100" height="37"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Fade" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTJ-8M-V1A">
-                                                        <rect key="frame" x="125" y="16.666666666666629" width="100" height="37"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                        <rect key="frame" x="125" y="36.5" width="100" height="37"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Flip Right" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
                                                     </button>
@@ -89,7 +89,7 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="01f-CV-ZxY" firstAttribute="height" secondItem="GNG-RI-Uyl" secondAttribute="height" multiplier="0.75" id="PDv-u6-OP9"/>
+                                    <constraint firstItem="01f-CV-ZxY" firstAttribute="height" secondItem="GNG-RI-Uyl" secondAttribute="height" multiplier="0.6" id="PDv-u6-OP9"/>
                                 </constraints>
                             </stackView>
                         </subviews>
