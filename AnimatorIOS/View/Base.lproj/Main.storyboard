@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,76 +12,88 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimatorIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="GNG-RI-Uyl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="637"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="538"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01f-CV-ZxY">
-                                        <rect key="frame" x="27.5" y="0.0" width="320" height="382"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="323"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biJ-gz-JwZ">
-                                                <rect key="frame" x="20" y="20" width="280" height="342"/>
+                                                <rect key="frame" x="10" y="10" width="300" height="303"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ace_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="AIu-RT-wML" userLabel="card">
-                                                        <rect key="frame" x="36" y="20" width="208" height="302"/>
+                                                        <rect key="frame" x="80" y="50" width="140" height="203"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="AIu-RT-wML" secondAttribute="height" multiplier="1:1.452" id="hK5-D3-U0g"/>
                                                         </constraints>
                                                     </imageView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="AIu-RT-wML" secondAttribute="bottom" constant="20" id="7Ab-aq-A5H"/>
+                                                    <constraint firstAttribute="bottom" secondItem="AIu-RT-wML" secondAttribute="bottom" constant="50" id="7Ab-aq-A5H"/>
                                                     <constraint firstItem="AIu-RT-wML" firstAttribute="centerY" secondItem="biJ-gz-JwZ" secondAttribute="centerY" id="XeF-vq-lfs"/>
                                                     <constraint firstItem="AIu-RT-wML" firstAttribute="centerX" secondItem="biJ-gz-JwZ" secondAttribute="centerX" id="YRV-bV-tld"/>
-                                                    <constraint firstItem="AIu-RT-wML" firstAttribute="top" secondItem="biJ-gz-JwZ" secondAttribute="top" constant="20" id="ieT-Tb-Ndd"/>
+                                                    <constraint firstItem="AIu-RT-wML" firstAttribute="top" secondItem="biJ-gz-JwZ" secondAttribute="top" constant="50" id="ieT-Tb-Ndd"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstItem="biJ-gz-JwZ" firstAttribute="leading" secondItem="01f-CV-ZxY" secondAttribute="leading" constant="20" id="2rb-bR-SAf"/>
-                                            <constraint firstItem="biJ-gz-JwZ" firstAttribute="top" secondItem="01f-CV-ZxY" secondAttribute="top" constant="20" id="42p-Ez-wMs"/>
-                                            <constraint firstAttribute="trailing" secondItem="biJ-gz-JwZ" secondAttribute="trailing" constant="20" id="Hsz-td-COL"/>
-                                            <constraint firstAttribute="bottom" secondItem="biJ-gz-JwZ" secondAttribute="bottom" constant="20" id="kjB-gY-xLT"/>
+                                            <constraint firstItem="biJ-gz-JwZ" firstAttribute="leading" secondItem="01f-CV-ZxY" secondAttribute="leading" constant="10" id="2rb-bR-SAf"/>
+                                            <constraint firstItem="biJ-gz-JwZ" firstAttribute="top" secondItem="01f-CV-ZxY" secondAttribute="top" constant="10" id="42p-Ez-wMs"/>
+                                            <constraint firstAttribute="trailing" secondItem="biJ-gz-JwZ" secondAttribute="trailing" constant="10" id="Hsz-td-COL"/>
+                                            <constraint firstAttribute="bottom" secondItem="biJ-gz-JwZ" secondAttribute="bottom" constant="10" id="kjB-gY-xLT"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SH4-og-eav">
-                                        <rect key="frame" x="75" y="401" width="225" height="236"/>
+                                        <rect key="frame" x="47.5" y="342" width="225" height="196"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="PBE-Lk-DKe">
-                                                <rect key="frame" x="0.0" y="0.0" width="225" height="110"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="90"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5A6-jX-2uY">
-                                                        <rect key="frame" x="0.0" y="36.5" width="100" height="37"/>
+                                                        <rect key="frame" x="0.0" y="26.5" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Rotate" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
+                                                        <connections>
+                                                            <action selector="onRotatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpc-t2-xJN"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h91-AW-Rbv">
-                                                        <rect key="frame" x="125" y="36.5" width="100" height="37"/>
+                                                        <rect key="frame" x="125" y="26.5" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Flip Left" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
+                                                        <connections>
+                                                            <action selector="onFlipLeftPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RZE-ho-7Z4"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="6N9-S0-ZIy">
-                                                <rect key="frame" x="0.0" y="126" width="225" height="110"/>
+                                                <rect key="frame" x="0.0" y="106" width="225" height="90"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-hW-cLa">
-                                                        <rect key="frame" x="0.0" y="36.5" width="100" height="37"/>
+                                                        <rect key="frame" x="0.0" y="26.5" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Fade" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
+                                                        <connections>
+                                                            <action selector="onFadePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBJ-g2-qUo"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTJ-8M-V1A">
-                                                        <rect key="frame" x="125" y="36.5" width="100" height="37"/>
+                                                        <rect key="frame" x="125" y="26.5" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Flip Right" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
+                                                        <connections>
+                                                            <action selector="onFlipRightPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Us1-lg-Sj9"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -89,6 +101,8 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="01f-CV-ZxY" firstAttribute="leading" secondItem="GNG-RI-Uyl" secondAttribute="leading" id="1ry-lQ-sYw"/>
+                                    <constraint firstAttribute="trailing" secondItem="01f-CV-ZxY" secondAttribute="trailing" id="2sL-IW-BUL"/>
                                     <constraint firstItem="01f-CV-ZxY" firstAttribute="height" secondItem="GNG-RI-Uyl" secondAttribute="height" multiplier="0.6" id="PDv-u6-OP9"/>
                                 </constraints>
                             </stackView>
@@ -102,6 +116,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cardImage" destination="AIu-RT-wML" id="dGx-zi-YGn"/>
+                        <outlet property="cardView" destination="biJ-gz-JwZ" id="kVZ-6j-Isw"/>
+                        <outlet property="stackView" destination="GNG-RI-Uyl" id="Gpd-5z-xAn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
