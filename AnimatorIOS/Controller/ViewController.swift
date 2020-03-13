@@ -27,20 +27,17 @@ class ViewController: UIViewController {
         cardView.layer.borderColor = UIColor.clear.cgColor
         cardView.layer.borderWidth = 0.5
         cardView.layer.cornerRadius = 10
-        
+        cardView.clipsToBounds = true
     }
-    
-    
 
     @IBAction func onRotatePressed(_ sender: UIButton) {
+        model.card.flipCard()
+        model.rotate(cardImage: cardImage)
     }
-    
-    
     
     @IBAction func onFlipLeftPressed(_ sender: UIButton) {
         model.card.flipCard()
         model.flipLeft(cardImage: cardImage)
-        
     }
     
     @IBAction func onFadePressed(_ sender: UIButton) {
