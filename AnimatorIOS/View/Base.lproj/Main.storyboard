@@ -16,16 +16,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="GNG-RI-Uyl">
-                                <rect key="frame" x="20" y="0.0" width="335" height="667"/>
+                                <rect key="frame" x="20" y="0.0" width="335" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01f-CV-ZxY">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="483"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="538"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biJ-gz-JwZ">
-                                                <rect key="frame" x="10" y="10" width="315" height="463"/>
+                                                <rect key="frame" x="10" y="10" width="315" height="518"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ace_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="AIu-RT-wML" userLabel="card">
-                                                        <rect key="frame" x="32.5" y="50" width="250" height="363"/>
+                                                        <rect key="frame" x="13.5" y="50" width="288" height="418"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="AIu-RT-wML" secondAttribute="height" multiplier="1:1.452" id="hK5-D3-U0g"/>
                                                         </constraints>
@@ -48,14 +48,14 @@
                                             <constraint firstAttribute="bottom" secondItem="biJ-gz-JwZ" secondAttribute="bottom" constant="10" id="kjB-gY-xLT"/>
                                         </constraints>
                                     </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SH4-og-eav">
-                                        <rect key="frame" x="55" y="502" width="225" height="165"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SH4-og-eav">
+                                        <rect key="frame" x="55" y="557" width="225" height="90"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="PBE-Lk-DKe">
-                                                <rect key="frame" x="0.0" y="0.0" width="225" height="74.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="37"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5A6-jX-2uY">
-                                                        <rect key="frame" x="0.0" y="19" width="100" height="37"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Rotate" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
@@ -64,7 +64,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h91-AW-Rbv">
-                                                        <rect key="frame" x="125" y="19" width="100" height="37"/>
+                                                        <rect key="frame" x="125" y="0.0" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Flip Left" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
@@ -75,10 +75,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="6N9-S0-ZIy">
-                                                <rect key="frame" x="0.0" y="90.5" width="225" height="74.5"/>
+                                                <rect key="frame" x="0.0" y="53" width="225" height="37"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-hW-cLa">
-                                                        <rect key="frame" x="0.0" y="19" width="100" height="37"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Fade" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
@@ -87,7 +87,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTJ-8M-V1A">
-                                                        <rect key="frame" x="125" y="19" width="100" height="37"/>
+                                                        <rect key="frame" x="125" y="0.0" width="100" height="37"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                         <state key="normal" title="Flip Right" backgroundImage="bnNormal"/>
                                                         <state key="highlighted" backgroundImage="bnHighlight"/>
@@ -109,7 +109,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GNG-RI-Uyl" secondAttribute="trailing" constant="20" id="1Uu-og-F7C"/>
-                            <constraint firstItem="GNG-RI-Uyl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="54O-ZR-OZx"/>
+                            <constraint firstItem="GNG-RI-Uyl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="54O-ZR-OZx"/>
                             <constraint firstItem="GNG-RI-Uyl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7Ik-El-Hiy"/>
                             <constraint firstItem="GNG-RI-Uyl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aRc-zV-6kf"/>
                         </constraints>

@@ -6,6 +6,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var cardImage: UIImageView!
     
+    var model = Model()
+    
     override func viewWillTransition(to size: CGSize,
                                      with coordinator: UIViewControllerTransitionCoordinator) {
         coordinator.animate(alongsideTransition: {_ in
@@ -27,17 +29,26 @@ class ViewController: UIViewController {
         cardView.layer.cornerRadius = 10
         
     }
+    
+    
 
     @IBAction func onRotatePressed(_ sender: UIButton) {
     }
     
+    
+    
     @IBAction func onFlipLeftPressed(_ sender: UIButton) {
+        model.card.flipCard()
+        model.flipLeft(cardImage: cardImage)
+        
     }
     
     @IBAction func onFadePressed(_ sender: UIButton) {
     }
     
     @IBAction func onFlipRightPressed(_ sender: UIButton) {
+        model.card.flipCard()
+        model.flipRight(cardImage: cardImage)
     }
     
     
